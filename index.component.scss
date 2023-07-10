@@ -1,0 +1,60 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 110px;
+  }
+  
+  .result {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #999;
+  }
+  .result{
+    width:90%;
+  }
+  .calculater{
+    // font-style: italic;
+      text-align: center;
+      color:white;
+      margin: revert;
+      margin-top: 30px
+      
+  }
+  .header h1{
+    font-family: cursive;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 30px;
+      color: white;
+  }
+  .image{
+    background-image:url("https://codeup.rocks/tech-angular-bg-min.jpg");
+    width: 100%;
+      margin: 0px;
+      margin-top: -30px;
+      height: 100vh;
+  }
